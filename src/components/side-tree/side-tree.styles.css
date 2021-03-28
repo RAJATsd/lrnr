@@ -1,0 +1,44 @@
+.side-tree {
+    height: 100vh;
+    max-height: 100vh;
+    flex: 0.3;
+}
+
+.tree-container,.recent,.graph,.board {
+    display: none;
+}
+
+.recent,.graph,.board {
+    text-align: center;
+}
+
+.tree-container__options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0  20px;
+}
+
+.tree-container__options_DFIN {
+    color: rgb(141, 141, 141);
+}
+
+.add-collection-button {
+    background: none;
+    border:none;
+    color: red;
+    font-size: 25px;
+}
+
+.add-collection-button:hover {
+    cursor: pointer;
+}
+
+.expand-image {
+    width: 15px;
+    height: 15px;
+}
+
+.show-section {
+    display: block;
+}

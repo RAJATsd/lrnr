@@ -1,0 +1,24 @@
+.toggle-menu {
+    width: 100%;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: rgba(211, 211, 211, 0.74) 1px solid;
+}
+
+.toggle-menu__ele {
+    padding: 5px 10px;
+}
+
+.toggle-menu__ele:hover {
+    cursor: pointer;
+}
+
+.dots-menu-image {
+    height: 15px;
+}
+
+.active_tab {
+    border-bottom: 2px solid red;
+}

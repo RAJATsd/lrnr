@@ -1,0 +1,17 @@
+.single-file {
+    padding: 5px;
+    padding-left: 20px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-button-file {
+    width: 18px;
+    height: 18px;
+}
+
+.close-button-file:hover {
+    cursor: pointer;
+}

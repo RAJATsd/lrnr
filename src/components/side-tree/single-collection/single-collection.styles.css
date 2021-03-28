@@ -1,0 +1,66 @@
+.single-collection {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.collection-upper-and-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collection-arrow {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+.collection-arrow:hover {
+    cursor: pointer;
+}
+
+.hidden-part {
+    display: none;
+}
+
+.single-collection__buttons {
+    display: none;
+    align-items: center;
+}
+
+.single-collection__buttons-button {
+    margin: 0 4px;
+}
+
+.single-collection__buttons-button:hover {
+    cursor: pointer;
+}
+
+.single-collection__name:hover {
+    cursor: pointer;
+}
+
+.inside_elements {
+    width: 100%;
+}
+
+.show-content{
+    display: flex;
+}
+
+.close-button {
+    width: 25px;
+    height: 25px;
+}
+
+.add-file-button {
+    border:none;
+    background: none;
+    font-size: 25px;
+}
